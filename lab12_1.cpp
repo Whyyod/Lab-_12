@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int fibonacci(int x);
+long long int fibonacci(int x);
 
 int main(){
     clock_t start = clock();
@@ -15,7 +15,7 @@ int main(){
 }
 
 
-int fibonacci(int x){
+long long int fibonacci(int x){
     if(x==1){
     return 1 ;
     }
